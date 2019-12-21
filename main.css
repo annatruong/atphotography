@@ -31,21 +31,23 @@ main {
     width: 95%;
     margin: 0 auto;
     padding: 40px 0;
+    text-align: center;
 }
 
-.photo {
+#photo {
+    display: block;
+}
+
+#photo img {
     display: inline;
-    margin: 10px 10px 10px 0px;
-    padding: 10px 10px 10px 0px;
-}
-
-.photo img {
+    width: 200px;
+    height: 135px;
     cursor: pointer;
     transition: 0.3s;
-    margin: 10px 20px 30px 0px;
+    padding: 10px;
 }
   
-.photo img:hover {
+#photo img:hover {
       opacity: 0.8;
 }
 
