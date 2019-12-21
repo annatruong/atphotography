@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./main.css">
@@ -76,71 +76,29 @@
   </div>
   <main>
     <h1>GALLERY</h1>
-    <div class="photo">
-      <img src="./images/street_photography/ice_cream_van.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="vintage ice-cream van">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/photographers.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="photographers">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/tracksuit.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="man wearing tracksuit">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/photographer.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="photographer">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/bored.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="man looking bored">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/artist.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="street artist">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/cyclists.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="cyclists">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/nuns.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="nuns getting ready to cycle">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/raining.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="old couple with umbrellas">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/adore_and_endure.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="adure and endure street art">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/connectivity_matters.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="connectivity street art">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/buy.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="street art">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/silver_building.jpeg" width="200px" height="240px" class="img-responsive" onclick="onClick(this)" alt="silver_building">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/three.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="three street art">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/robots.jpeg" width="200px" height="145px" class="img-responsive" onclick="onClick(this)" alt="do not trust robots neon sign">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/jealous_full.jpeg" width="200px" height="240px" class="img-responsive" onclick="onClick(this)" alt="building with jeadlous sign">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/jealous.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="building with jeadlous sign">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/hey.jpeg" width="200px" height="170px" class="img-responsive" onclick="onClick(this)" alt="man waving">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/ice_cream.jpeg" width="200px" height="145px" class="img-responsive" onclick="onClick(this)" alt="man holding ice-cream">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/kids_water.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="children playing with fountain">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/sewing.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="woman sewing">
-    </div>
-    <div class="photo">
-      <img src="./images/street_photography/caravan.jpeg" width="200px" height="135px" class="img-responsive" onclick="onClick(this)" alt="caravan">
+    <div id="photo">
+      <img src="./images/street_photography/thumbnail/ice_cream_van_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="vintage ice-cream van">
+      <img src="./images/street_photography/thumbnail/photographers_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="photographers">
+      <img src="./images/street_photography/thumbnail/tracksuit_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="man wearing tracksuit">
+      <img src="./images/street_photography/thumbnail/photographer_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="photographer">
+      <img src="./images/street_photography/thumbnail/bored_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="man looking bored">
+      <img src="./images/street_photography/thumbnail/artist_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="street artist">
+      <img src="./images/street_photography/thumbnail/cyclists_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="cyclists">
+      <img src="./images/street_photography/thumbnail/nuns_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="nuns getting ready to cycle">
+      <img src="./images/street_photography/thumbnail/raining_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="old couple with umbrellas">
+      <img src="./images/street_photography/thumbnail/adore_and_endure_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="adure and endure street art">
+      <img src="./images/street_photography/thumbnail/connectivity_matters_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="connectivity street art">
+      <img src="./images/street_photography/thumbnail/buy_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="street art">
+      <img src="./images/street_photography/thumbnail/silver_building_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="silver_building">
+      <img src="./images/street_photography/thumbnail/three_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="three street art">
+      <img src="./images/street_photography/thumbnail/robots_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="do not trust robots neon sign">
+      <img src="./images/street_photography/thumbnail/jealous_full_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="building with jeadlous sign">
+      <img src="./images/street_photography/thumbnail/jealous_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="building with jealous sign">
+      <img src="./images/street_photography/thumbnail/hey_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="man waving">
+      <img src="./images/street_photography/thumbnail/ice_cream_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="man holding ice-cream">
+      <img src="./images/street_photography/thumbnail/kids_water_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="children playing with fountain">
+      <img src="./images/street_photography/thumbnail/sewing_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="woman sewing">
+      <img src="./images/street_photography/thumbnail/caravan_small.jpeg" class="img-responsive" onclick="onClick(this)" alt="caravan">
     </div>
   </main>
   <footer>
