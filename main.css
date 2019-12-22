@@ -22,7 +22,6 @@ nav {
 }
 
 #about p {
-    max-width: 700px;
     margin: 0 auto;
     text-align: center;
 }
@@ -47,7 +46,7 @@ main {
     padding: 10px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     #photo img {
         width: 200px;
         height: 135px;
