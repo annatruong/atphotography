@@ -38,7 +38,7 @@ main {
 }
 
 #photo img {
-    display: inline;
+    display: inline-block;
     width: 100px;
     height: 70px;
     cursor: pointer;
